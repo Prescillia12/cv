@@ -1,0 +1,57 @@
+h1 {  
+    margin-top: 0;
+    border:1px solid red;
+    background-color: crimson;
+    padding: 5px;
+} 
+
+h2 {
+    color:whitesmoke;
+    background: linear-gradient(135deg, rgba(174,188,191,1) 10%,rgba(110,119,116,1) 35%,rgba(10,14,10,1) 73%,rgba(10,14,10,1) 78%,rgba(10,8,9,1) 100%); 
+    margin-left: 10px;
+}
+
+.compétences {
+    margin-top: 75px;
+}
+
+header {
+background: linear-gradient (135deg, $orange-200  $orange-300
+$orange-400
+$orange-500
+$orange-600
+(135deg, #efc5ca 10%,#d24b5a 15%,#ba2737 25%,#f18e99 50%, #ba2737 75%, #f18e99 100%);
+}
+
+body {
+    display: flex;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 200px; 
+}
+
+.imageCenter {
+    background-image: url("image.stylo.png");
+    display: block;
+    width: 900px;
+    height: 400px;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.momo {
+    display: block;
+    width: 200px;
+    height: 200px;;
+    margin: auto;
+    margin-bottom: 116.5px;
+    margin-top: 103px;
+}
+
+p {
+    margin-left: 10px;
+}
+
